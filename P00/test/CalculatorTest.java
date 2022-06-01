@@ -49,7 +49,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		
 		//Act
-		int actual = cal.subtract(a, b);
+		int actual = cal.subtract (a, b);
 		
 		//Assert
 		int expected = 5555;
@@ -66,7 +66,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		
 		//Act
-		int actual = cal.multiply(a, b);
+		int actual = cal.multiply (a, b);
 		
 		//Assert
 		int expected = 15;
@@ -82,7 +82,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		
 		//Act
-		int actual = cal.divide(a, b);
+		int actual = cal.divide (a, b);
 		
 		//Assert
 		int expected = 20;
